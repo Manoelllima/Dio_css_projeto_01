@@ -1,1 +1,139 @@
- 
+& p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Raleway";
+  font-weight: 400;
+  width: 510px;
+  margin: 0 auto;
+  line-height: 18.78px;
+  padding-top: 15px;
+}
+
+.banner {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(1, 41, 58, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../imgs/banner.png);
+  background-size: cover;
+  border-bottom: 2px solid #1472b7;
+  width: 100%;
+  text-align: center;
+  & .banner-content {
+    padding: 80px 0;
+    margin: 0 auto;
+    & .logo {
+      img {
+        background-color: #00000033;
+        border-radius: 50%;
+      }
+    }
+
+    & h1 {
+      -webkit-background-clip: text;
+      background: linear-gradient(#33a8db, #1472b7);
+      background-clip: text;
+      color: transparent;
+      font-size: 2.5rem;
+      font-family: "Raleway";
+      font-weight: 900;
+      padding-top: 15px;
+      text-transform: uppercase;
+    }
+
+    & button {
+      background-color: transparent;
+      border: 2px solid #33a8db;
+      color: #31a8dd;
+      font-family: "Raleway";
+      font-size: 1rem;
+      font-weight: 900;
+      margin-top: 15px;
+      padding: 19px 91px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+main {
+  background-color: #000000;
+  padding: 80px 0;
+  text-align: center;
+
+  & h2 {
+    color: #33a8db;
+    font-size: 2rem;
+    font-family: "raleway";
+    font-weight: 700;
+    line-height: 37.57px;
+    text-transform: uppercase;
+  }
+
+  & #course-content {
+    padding-bottom: 50px;
+    & .modules-list {
+      & .module {
+        color: #ffffff;
+        background-color: #252525;
+        border: 1px solid #33a8db;
+        border-radius: 57px;
+        box-shadow: inset -2px 6px 4px 0 #00000066;
+        margin: 20px auto;
+        padding: 16px 0px;
+        height: 51px;
+        width: 535px;
+
+        & span {
+          color: #33a8db;
+        }
+      }
+    }
+  }
+
+  & #transform-world {
+    border: 1px 0px 1px 0px solid #33a8db;
+    background-image: url(../imgs/woman-code.png);
+    background-position: 0px center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+
+    & p {
+        font-size: 2.4rem;
+        font-weight: 900;
+        line-height: 40px;
+        margin: 0;
+        margin-left:250px;
+        padding-top: 100px;
+        text-transform: lowercase;
+        text-shadow: 4px 4px  #31a8dd;
+        text-align: left;
+        width: 240px;
+    }
+  }
+
+  & #professional-challenges{
+    & h2{padding-top: 60px;}
+    & img{margin: 20px 0;}
+    & p{ width: 792px;}
+  }
+}
+
+footer{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(1, 41, 58, 0.8),
+        rgba(0, 0, 0, 0.8)
+      );
+    background-size: cover;
+    border-bottom: 2px solid #1472b7;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    
+    & a{
+        text-decoration: none;
+        color: #33a8db;
+    }
+}
